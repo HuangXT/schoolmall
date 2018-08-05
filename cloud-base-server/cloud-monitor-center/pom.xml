@@ -12,7 +12,7 @@
     <groupId>com.schoolmall.micro.server</groupId>
     <artifactId>cloud-monitor-center</artifactId>
 
-    <name>cloudMonitorCenter</name>
+    <name>cloud-monitor-center</name>
     <description>主要SpringCloud组件-服务监控中心</description>
 
     <properties>
