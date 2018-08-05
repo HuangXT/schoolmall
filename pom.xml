@@ -8,6 +8,9 @@
 	<artifactId>schoolmall-proj</artifactId>
 	<!-- version 版本号，SNAPSHOT意为快照，说明该项目还在开发中，是不稳定的版本。 -->
 	<version>0.0.1-SNAPSHOT</version>
+	<modules>
+		<module>cloud-base-server</module>
+	</modules>
 	<!-- packaging 项目打包的类型，可以使jar、war、rar、ear、pom，默认是jar-->
 	<packaging>pom</packaging>
 
