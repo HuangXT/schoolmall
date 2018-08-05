@@ -24,14 +24,15 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
-            <version>RELEASE</version>
+            <version>1.3.3.RELEASE</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-netflix-eureka-client</artifactId>
-            <version>RELEASE</version>
+            <version>1.3.5.RELEASE</version>
         </dependency>
+
     </dependencies>
 
 </project>
