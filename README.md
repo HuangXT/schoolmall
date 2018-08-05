@@ -3,19 +3,23 @@
 
 
 # 环境配置
-maven：apache-maven-3.0.5
-jdk:jdk1.8.0_151
-idea:2017.3 pro
+1. maven：apache-maven-3.0.5
+2. jdk:jdk1.8.0_151
+3. idea:2017.3 pro
+
+# 版本标识
+tag v0.1 主要是组件模块化换分，为后期项目各类功能开发套件
 
 
+# 数据库脚本
 每个业务服务采用独立的Mysql数据库进行挂你，目前考虑到的组件如下：
 
-0. 服务监控: spring-boot-admin
-1. 服务注册发现: eureka
-2. 配置管理:spring config , spring security
-3. 集群容错: hystrix
-4. API网关: zuul
-5. 服务负载:feign+ribbon
+1. 服务监控: spring-boot-admin
+2. 服务注册发现: eureka
+3. 配置管理:spring config , spring security
+4. 集群容错: hystrix
+5. API网关: zuul
+6. 服务负载:feign+ribbon
 
 # 各模块介绍
 
