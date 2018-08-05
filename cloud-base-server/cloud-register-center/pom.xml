@@ -10,8 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
     <description>主要SpringCloud组件-服务注册中心eurekaServer</description>
     <groupId>com.schoolmall.micro.server</groupId>
-    <artifactId>cloud-registration-center</artifactId>
-    <name>cloud-registration-center</name>
+    <artifactId>cloud-register-center</artifactId>
+    <name>cloud-register-center</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
