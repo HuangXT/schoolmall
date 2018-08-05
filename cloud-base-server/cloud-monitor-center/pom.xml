@@ -13,7 +13,7 @@
     <artifactId>cloud-monitor-center</artifactId>
 
     <name>cloud-monitor-center</name>
-    <description>主要SpringCloud组件-服务监控中心</description>
+    <description>主要SpringCloud组件-服务监控中心1</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
