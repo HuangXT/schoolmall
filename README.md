@@ -53,8 +53,12 @@ tag v0.1 主要是组件模块化换分，为后期项目各类功能开发套�
 | 6 |       |  | 前端层     |    |
 | 1 | cloud-biz-front-app            |    9099    |  前端服务，结合swagger2提供API管理  |
 
+# 流程图
+![用户注册登录购物流程](images/shopping flow.jpg)
+
+
 
 # 快速上手
-- 1、先启动admin-server,eureka-server,conf-server三个基础服务
+- 1、先启动cloud-monitor-center,cloud-register-center,cloud-conf-server三个基础服务
 - 2、再依次启动payment/order/product/account基础业务服务
 - 3、最后启动front-app服务，打开浏览器，输入http://localhost:9099/swagger-ui.html

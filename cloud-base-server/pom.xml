@@ -15,12 +15,12 @@
         <module>cloud-config-center</module>
         <module>cloud-register-center</module>
         <module>cloud-register-eureka</module>
-
         <module>cloud-zuul-server</module>
         <module>cloud-sleuth-server</module>
         <module>cloud-config-git</module>
         <module>cloud-hystrix-dashboard</module>
         <module>cloud-turbine-server</module>
+        <module>cloud-conf-server</module>
     </modules>
     <groupId>com.schoolmall.micro.server</groupId>
     <artifactId>cloud-base-server</artifactId>
