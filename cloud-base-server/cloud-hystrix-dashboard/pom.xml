@@ -10,12 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.schoolmall.micro.server</groupId>
-    <artifactId>cloud-config-git</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>cloud-config-client</module>
-        <module>cloud-config-server</module>
-    </modules>
+    <artifactId>cloud-hystrix-dashboard</artifactId>
 
 
 </project>

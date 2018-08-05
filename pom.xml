@@ -10,6 +10,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<modules>
 		<module>cloud-base-server</module>
+        <module>cloud-common-module</module>
+		<module>cloud-biz-payment-service</module>
+		<module>cloud-biz-order-service</module>
+		<module>cloud-biz-msg-service</module>
+		<module>cloud-product-service</module>
+		<module>cloud-biz-front-app</module>
 	</modules>
 	<!-- packaging 项目打包的类型，可以使jar、war、rar、ear、pom，默认是jar-->
 	<packaging>pom</packaging>
@@ -19,7 +25,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.2.RELEASE</version>
+		<version>1.5.3.RELEASE</version>
 		<relativePath />
 	</parent>
 

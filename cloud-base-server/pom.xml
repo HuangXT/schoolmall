@@ -19,6 +19,8 @@
         <module>cloud-zuul-server</module>
         <module>cloud-sleuth-server</module>
         <module>cloud-config-git</module>
+        <module>cloud-hystrix-dashboard</module>
+        <module>cloud-turbine-server</module>
     </modules>
     <groupId>com.schoolmall.micro.server</groupId>
     <artifactId>cloud-base-server</artifactId>

@@ -3,19 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>cloud-base-server</artifactId>
+        <artifactId>schoolmall-proj</artifactId>
         <groupId>com.schoolmall.micro.server</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.schoolmall.micro.server</groupId>
-    <artifactId>cloud-config-git</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>cloud-config-client</module>
-        <module>cloud-config-server</module>
-    </modules>
+    <artifactId>cloud-biz-front-app</artifactId>
 
 
 </project>
