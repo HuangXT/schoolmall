@@ -13,7 +13,9 @@
     <modules>
         <module>cloud-monitor-center</module>
         <module>cloud-config-center</module>
-        <module>cloud-registration-center</module>
+        <module>cloud-register-center</module>
+        <module>cloud-register-eureka</module>
+
         <module>cloud-zuul-server</module>
         <module>cloud-sleuth-server</module>
         <module>cloud-config-git</module>

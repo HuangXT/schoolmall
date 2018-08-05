@@ -11,6 +11,8 @@
 
     <groupId>com.schoolmall.micro.server</groupId>
     <artifactId>cloud-config-git</artifactId>
+    <packaging>pom</packaging>
+
 
 
 </project>
