@@ -6,11 +6,32 @@
         <artifactId>cloud-base-server</artifactId>
         <groupId>com.schoolmall.micro.server</groupId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../schoolmall/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <description>要SpringCloud组件-分布式配置中心</description>
     <groupId>com.schoolmall.micro.server</groupId>
     <artifactId>cloud-config-center</artifactId>
 
+
+    <dependencies>
+        <dependency>
+            <groupId>com.schoolmall.micro.server</groupId>
+            <artifactId>cloud-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-eureka-client</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>
