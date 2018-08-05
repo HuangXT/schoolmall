@@ -5,7 +5,7 @@
 	<!-- groupId 顾名思义，这个应该是公司名或是组织名。如用于商业的就是"com"，用于非营利性组织的就是"org" -->
 	<groupId>com.schoolmall.micro.server</groupId>
 	<!-- artifactId 可以认为是Maven构建的项目名，比如你的项目中有子项目，就可以使用"项目名-子项目名"的命名方式 -->
-	<artifactId>schoolmall-proj</artifactId>
+	<artifactId>schoolmall</artifactId>
 	<!-- version 版本号，SNAPSHOT意为快照，说明该项目还在开发中，是不稳定的版本。 -->
 	<version>0.0.1-SNAPSHOT</version>
 	<modules>
