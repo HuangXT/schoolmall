@@ -20,8 +20,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableAutoConfiguration
 @EnableDiscoveryClient
-public class AdminMonitorCenterServerApplication {
+//@SpringBootApplication
+//@EnableAdminServer
+public class AdminServerApplicaton {
+
     public static void main(String[] args) {
-        SpringApplication.run(AdminMonitorCenterServerApplication.class,args);
+        SpringApplication.run(AdminServerApplicaton.class, args);
     }
+
 }
