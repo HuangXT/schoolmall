@@ -6,11 +6,11 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class CloudEurekaTwoApplication {
+public class CloudEurekaOneApplication {
 
 	public static void main(String[] args) {
 		args = new String[1];
-		args[0] = "--spring.profiles.active=peer2";
-		SpringApplication.run(CloudEurekaTwoApplication.class, args);
+		args[0] = "--spring.profiles.active=peer1";
+		SpringApplication.run(CloudEurekaOneApplication.class, args);
 	}
 }
